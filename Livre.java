@@ -24,7 +24,7 @@ public class Livre extends Document{
 		this.author = author;
 	}
 	
-	public void setPages(int Pages){
+	public void setPages(int pages){
 		this.pages = pages;
 	}
 }

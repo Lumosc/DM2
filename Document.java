@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class Document{
 	private String title;
 	private int saveNumber;
