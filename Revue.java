@@ -9,6 +9,22 @@ public class Revue extends Document{
 	}
 	
 	public String toString() {
-		return "Revue " + super.toString();
+		return (super.toString() + "Newspaper date of publication:"+ month+"/"+year);
+	}
+	
+	public getYear(){
+		return this.year;
+	}
+	
+	public getMonth(){
+		return this.month;
+	}
+	
+	public setYear(int year){
+		this.year = year;
+	}
+	
+	public setMonth(int month){
+		this.month = month;
 	}
 }
