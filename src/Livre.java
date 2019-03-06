@@ -9,6 +9,22 @@ public class Livre extends Document{
 	}
 
 	public String toString() {
-		return "Livre " + super.toString();
+		return (super.toString() + "Book ");
+	}
+	
+	public getAuthor(){
+		return this.author;
+	}
+	
+	public getPages(){
+		return this.pages;
+	}
+	
+	public setAuthor(String author){
+		this.author = author;
+	}
+	
+	public setPages(int Pages){
+		this.pages = pages;
 	}
 }

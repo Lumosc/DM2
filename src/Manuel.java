@@ -7,6 +7,14 @@ public class Manuel extends Livre{
 	}
 	
 	public String toString() {
-		return "Manuel " + super.toString();
+		return (super.toString() + "Manual ");
+	}
+	
+	public getScolarLevel(){
+		retrun this.scolarLevel;
+	}
+	
+	public setScolarLevel(int scolarLevel){
+		this.scolarLevel = scolarLevel;
 	}
 }
